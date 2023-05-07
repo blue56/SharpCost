@@ -13,7 +13,7 @@ namespace SharpCostLibrary.Providers
         public string ProviderType { get; set; }
         public virtual string Name { get; }
 
-        public virtual Cost[] Execute(int Month, int Year)
+        public virtual Cost[] Execute(Month Month)
         {
             return null;
         }

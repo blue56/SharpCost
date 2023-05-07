@@ -11,6 +11,8 @@ namespace SharpCostLibrary.Model
         // Unique id
         public string CostId { get; set; }
 
+        public Month Month { get; set; }
+
         // E.g. AWS or Azure
         public string Service { get; set; }
 

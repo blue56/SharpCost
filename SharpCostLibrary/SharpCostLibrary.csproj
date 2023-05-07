@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.CostExplorer" Version="3.7.103.89" />
+    <PackageReference Include="AWSSDK.Organizations" Version="3.7.102.42" />
+  </ItemGroup>
+
 </Project>
